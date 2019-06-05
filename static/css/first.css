@@ -1,0 +1,160 @@
+body{
+    margin-right: 0px;
+    height: 2500px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 7200px;
+    animation: switch 12s ease-out infinite;
+}
+
+.photo>img {
+    float: left;
+    width: 1200px;
+    height: 600px;
+}
+/*@keyframes 规则用于创建动画*/
+@keyframes switch {
+    0%,
+    10% {
+        margin-left: 0;
+    }
+    20%,
+    30% {
+        margin-left: -1200px;
+    }
+    40%,
+    50% {
+        margin-left: -2400px;
+    }
+    60%,
+    70% {
+        margin-left: -3600px;
+    }
+    80%,
+    90% {
+        margin-left: -4800px;
+    }
+    99%,
+    100% {
+        margin-left: -6000px;
+    }
+}
+.navbar{
+    height: 100px;
+    background: #808080;
+}
+.navbar-brand{
+    float: left;
+}
+.navbar-info{
+    margin-top: 40px;
+    height: 43px;
+    width: 799px;
+    left: 398px;
+    top: 35px;
+    z-index: 8;
+    float: right;
+}
+.navbar a:hover{
+    color:#808080;
+}
+.stext{
+    display: block;
+    text-align: center;
+    height: 50px;
+    margin-top: 25px;
+    padding:1em;
+}
+.line{
+    /*width:90%;*/
+    text-align: center;
+    display: block;
+}
+.header{
+    height:240px;
+    width:1000px;
+    margin:20px auto;
+    clear:both;
+}
+.body-img{
+    float: left;
+    width:240px;
+}
+.body-img a:hover{
+    background: white;
+}
+.right_fbox {
+    width:200px;
+    height:409px;
+    position: fixed;
+    float: right;
+    left:50%;
+    top:59%;
+    z-index: 999;
+    margin-left:530px;
+    border:1px solid black;
+}
+.right_fbox a{
+    color:black;
+    text-decoration: none;
+}

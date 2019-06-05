@@ -1,0 +1,39 @@
+.container.demo{
+}
+.col{
+}
+.carousel.demo .carousel-item{
+    height: 400px;
+    width: 1150px;
+}
+.dropdown>a:hover{
+    text-decoration: none;
+}
+.row.demo>div>span{
+    font-size: 20px;
+    padding: 10px;
+}
+.dropdown-menu>li>a{
+    padding: 10px;
+}
+.container.footer{
+    height: 500px;
+    background: grey;
+}
+.row.demo{
+    padding:3px;
+}
+.contact{
+    width:200px;
+    height: 100px;
+}
+.contact>div>h1{
+    text-align: center;
+}
+.card>a:hover{
+    text-decoration: none;
+    color:black;
+}
+.card>a{
+    color: black;
+}
